@@ -13,3 +13,4 @@ foreach ($ip in $ips) {
     tracert -h 15 $ip
     Write-Host "----------------------------------------"
 }
+
